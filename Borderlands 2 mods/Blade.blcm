@@ -1,0 +1,28 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="Nakamura">
+			<comment></comment>
+			<comment>>> This is a Mod for the Greed Pistol called the Nakamura.<<</comment>
+			<comment>This Gun is a nod to WWE Superstar, Shinsuke Nakamura</comment>
+			<code profiles="default">set GD_Orchid_BossWeapons.Name.Title.Title__Unique_ScarletsGreed PartName Blazing Blade</code>
+			<code profiles="default">set GD_Orchid_BossWeapons.Name.Title.Title__Unique_ScarletsGreed:AttributePresentationDefinition_8 NoConstraintText <font color="ff0000"> Do we have the capacity to make fire? <font color="FF0000"></code>
+			<code profiles="default">set GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_Greed Material MaterialInstanceConstant 'Aster_GunMaterials.Materials.Pistol.Mati_Jakobs_Citrine_Pistol'</code>
+			<code profiles="default">set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed CustomFiringModeDefinition FiringModeDefinition'GD_Aster_Weapons.FiringModes.Bullet_Shotgun_Swordsplosion'</code>
+			<code profiles="default">set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed GestaltModeSkeletalMeshName Pistol_Barrel_Dahl</code>
+			<code profiles="default">set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed rarity (BaseValueConstant=5.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)</code>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Orchid_BossWeapons.Name.Title.Title__Unique_ScarletsGreed PartName Blazing Blade
+set GD_Orchid_BossWeapons.Name.Title.Title__Unique_ScarletsGreed:AttributePresentationDefinition_8 NoConstraintText <font color="ff0000"> Do we have the capacity to make fire? <font color="FF0000">
+set GD_Orchid_BossWeapons.ManufacturerMaterials.Mat_Jakobs_3_Greed Material MaterialInstanceConstant 'Aster_GunMaterials.Materials.Pistol.Mati_Jakobs_Citrine_Pistol'
+set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed CustomFiringModeDefinition FiringModeDefinition'GD_Aster_Weapons.FiringModes.Bullet_Shotgun_Swordsplosion'
+set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed GestaltModeSkeletalMeshName Pistol_Barrel_Dahl
+set GD_Orchid_BossWeapons.Pistol.Pistol_Barrel_ScarletsGreed rarity (BaseValueConstant=5.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)
+

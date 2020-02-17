@@ -1,0 +1,27 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="Dartboard">
+			<comment>Sup User, I am Casual Elk and this is my mod that replaces the Flakker called the Dartboard.</comment>
+			<comment>this is just a fun mod for those who don't like the Flakker</comment>
+			<code profiles="default">set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker CustomFiringModeDefinition FiringModeDefinition 'Sage_HarpoonGun_FireMode'</code>
+			<code profiles="default">set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker GestaltModeSkeletalMeshName SG_Barrel_Hyperion</code>
+			<code profiles="default">set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=7.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.00000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=4.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))</code>
+			<code profiles="default">set GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_5_Legendary Material MaterialInstanceConstant 'Mati_JakobsEpic_SG'</code>
+			<code profiles="default">set GD_Weap_Shotgun.Name.Title_Torgue.Title_Legendary_Flakker PartName Dartboard</code>
+			<code profiles="default">set GD_Weap_Shotgun.Name.Title_Torgue.Title_Legendary_Flakker:AttributePresentationDefinition_8 NoConstraintText Bullseye</code>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker CustomFiringModeDefinition FiringModeDefinition 'Sage_HarpoonGun_FireMode'
+set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker GestaltModeSkeletalMeshName SG_Barrel_Hyperion
+set GD_Weap_Shotgun.Barrel.SG_Barrel_Torgue_Flakker WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=7.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.00000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=4.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=0.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)))
+set GD_Weap_Shotgun.ManufacturerMaterials.Mat_Torgue_5_Legendary Material MaterialInstanceConstant 'Mati_JakobsEpic_SG'
+set GD_Weap_Shotgun.Name.Title_Torgue.Title_Legendary_Flakker PartName Dartboard
+set GD_Weap_Shotgun.Name.Title_Torgue.Title_Legendary_Flakker:AttributePresentationDefinition_8 NoConstraintText Bullseye
+

@@ -1,0 +1,47 @@
+<BLCMM v="1">
+#<!!!You opened a file saved with BLCMM in FilterTool. Please update to BLCMM to properly open this file!!!>
+	<head>
+		<type name="BL2" offline="false"/>
+	</head>
+	<body>
+		<category name="Master (imported from Bound.blcm)">
+			<category name="Description">
+				<comment></comment>
+				<comment>Sup User, I am Casual Elk and this is my mod that replaces the infinity called the Dungeon Master</comment>
+				<comment></comment>
+			</category>
+			<category name="Code">
+				<category name="Barrel">
+					<code profiles="default">set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity GestaltModeSkeletalMeshName Pistol_Barrel_Hyperion</code>
+				</category>
+				<category name="FiringMode">
+					<code profiles="default">set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity CustomFiringModeDefinition FiringModeDefinition 'GD_Weap_Pistol.FiringModes.Bullet_Pistol_Hyperion_Fibber_2'</code>
+				</category>
+				<category name="Attributes">
+					<code profiles="default">set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=6.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=3.750000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=-34.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=-1.000000)))</code>
+				</category>
+				<category name="Skin">
+					<code profiles="default">set GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_5_Legendary Material MaterialInstanceConstant 'Common_GunMaterials.Materials.Pistol.Mati_JakobsLegendaryPistol_Maggie'</code>
+				</category>
+				<category name="Weapon Name and Red Text">
+					<code profiles="default">set GD_Weap_Pistol.Name.Title_Vladof.Title_Legendary_Infinity PartName Rebounder</code>
+					<code profiles="default">set GD_Weap_Pistol.Name.Title_Vladof.Title_Legendary_Infinity:AttributePresentationDefinition_8 NoConstraintText <font color="ff0000">In this world of ups and downs, so nice to know there are Jackalopes around. <font color="FF0000"></code>
+				</category>
+				<category name="Rarity">
+					<comment></comment>
+					<comment>)</comment>
+					<comment></comment>
+				</category>
+			</category>
+		</category>
+	</body>
+</BLCMM>
+
+#Commands:
+set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity GestaltModeSkeletalMeshName Pistol_Barrel_Hyperion
+set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity CustomFiringModeDefinition FiringModeDefinition 'GD_Weap_Pistol.FiringModes.Bullet_Pistol_Hyperion_Fibber_2'
+set GD_Weap_Pistol.Barrel.Pistol_Barrel_Vladof_Infinity WeaponAttributeEffects ((AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponDamage',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=6.500000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=3.750000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponClipSize',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=-34.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponProjectilesPerShot',ModifierType=MT_PreAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponSpread',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponReloadSpeed',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponFireInterval',ModifierType=MT_Scale,BaseModifierValue=(BaseValueConstant=-1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=1.000000)),(AttributeToModify=AttributeDefinition'D_Attributes.Weapon.WeaponShotCost',ModifierType=MT_PostAdd,BaseModifierValue=(BaseValueConstant=1.000000,BaseValueAttribute=None,InitializationDefinition=None,BaseValueScaleConstant=-1.000000)))
+set GD_Weap_Pistol.ManufacturerMaterials.Mat_Vladof_5_Legendary Material MaterialInstanceConstant 'Common_GunMaterials.Materials.Pistol.Mati_JakobsLegendaryPistol_Maggie'
+set GD_Weap_Pistol.Name.Title_Vladof.Title_Legendary_Infinity PartName Rebounder
+set GD_Weap_Pistol.Name.Title_Vladof.Title_Legendary_Infinity:AttributePresentationDefinition_8 NoConstraintText <font color="ff0000">In this world of ups and downs, so nice to know there are Jackalopes around. <font color="FF0000">
+
